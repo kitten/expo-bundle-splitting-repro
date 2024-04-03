@@ -5,7 +5,7 @@ import React, { Suspense } from "react";
 import { StyleSheet, View } from "react-native";
 
 const NullFallback = () => {
-  return null;
+  return <p>Loading</p>;
 };
 
 const LazyText = React.lazy(() => import("./src/lazy"));
